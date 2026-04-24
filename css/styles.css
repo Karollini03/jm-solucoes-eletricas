@@ -159,33 +159,8 @@ ul {
 
 /* Ajustes mobile: sem menu lateral e com header mais compacto */
 @media (max-width: 767px) {
-  .header .container {
-    height: auto;
-    padding: 0.6rem 0;
-    flex-direction: column;
-    gap: 0.5rem;
-  }
-
   .header__nav {
-    display: flex;
-    width: 100%;
-    justify-content: center;
-  }
-
-  .header__nav-list {
-    gap: 1rem;
-  }
-
-  .header__nav-link {
-    font-size: 0.8rem;
-  }
-
-  .header__nav .btn-cta {
     display: none;
-  }
-
-  .hero {
-    padding-top: 140px;
   }
 }
 
@@ -422,38 +397,22 @@ ul {
 
 @media (max-width: 767px) {
   .btn-cta {
-    padding: 0.75rem 1.25rem;
-    font-size: 0.875rem;
+    padding: 0.65rem 1rem;
+    font-size: 0.82rem;
     letter-spacing: 0.03em;
   }
 
   .hero__btn-secondary {
-    padding: 0.75rem 1.25rem;
-    font-size: 0.9rem;
+    padding: 0.65rem 1rem;
+    font-size: 0.85rem;
   }
 
   .hero__buttons {
-    align-items: center;
     margin-bottom: 2rem;
   }
 
-  .hero__content {
-    text-align: center;
-    margin: 0 auto;
-  }
-
-  .hero__description {
-    margin-left: auto;
-    margin-right: auto;
-  }
-
   .hero__features {
-    justify-content: center;
     gap: 1rem;
-  }
-
-  .hero__feature {
-    justify-content: center;
   }
 
   .services,
@@ -471,29 +430,9 @@ ul {
     gap: 2rem;
   }
 
-  .service-card {
-    text-align: center;
-  }
-
-  .service-card__icon {
-    margin-left: auto;
-    margin-right: auto;
-  }
-
   .contact__description,
   .contact__info {
-    text-align: center;
     margin-bottom: 1.25rem;
-  }
-
-  .contact__label,
-  .contact__title,
-  .contact__card-title {
-    text-align: center;
-  }
-
-  .contact__info-item {
-    justify-content: center;
   }
 
   .contact__card {
@@ -501,8 +440,8 @@ ul {
   }
 
   .contact__whatsapp-btn {
-    padding: 0.9rem 1rem;
-    font-size: 1rem;
+    padding: 0.8rem 0.9rem;
+    font-size: 0.95rem;
     margin-bottom: 1rem;
   }
 
