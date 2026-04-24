@@ -391,7 +391,7 @@ ul {
 
 /* ===== SERVICES ===== */
 .services {
-  padding: 5rem 0;
+  padding: 4rem 0;
   background-color: var(--background);
 }
 
@@ -418,7 +418,7 @@ ul {
   .services,
   .gallery,
   .contact {
-    padding: 3.25rem 0;
+    padding: 2.75rem 0;
   }
 
   .services__header,
@@ -436,12 +436,12 @@ ul {
   }
 
   .contact__card {
-    padding: 1.25rem;
+    padding: 1.1rem;
   }
 
   .contact__whatsapp-btn {
-    padding: 0.8rem 0.9rem;
-    font-size: 0.95rem;
+    padding: 0.68rem 0.8rem;
+    font-size: 0.88rem;
     margin-bottom: 1rem;
   }
 
@@ -473,7 +473,7 @@ ul {
 .service-card {
   background-color: hsl(0, 0%, 100%);
   border-radius: 0.75rem;
-  padding: 1.5rem;
+  padding: 1.25rem;
   border: 1px solid hsl(220, 15%, 88%);
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
   transition: all 0.3s ease;
@@ -669,7 +669,7 @@ ul {
 
 /* ===== CONTACT ===== */
 .contact {
-  padding: 5rem 0;
+  padding: 4rem 0;
   position: relative;
   overflow: hidden;
 }
@@ -779,7 +779,7 @@ ul {
   background-color: hsla(0, 0%, 100%, 0.05);
   backdrop-filter: blur(4px);
   border-radius: 1rem;
-  padding: 2rem;
+  padding: 1.5rem;
   border: 1px solid hsla(0, 0%, 100%, 0.1);
 }
 
@@ -889,11 +889,11 @@ ul {
 
 @media (min-width: 768px) {
   .contact {
-    padding: 7rem 0;
+    padding: 5.5rem 0;
   }
 
   .contact__card {
-    padding: 2.5rem;
+    padding: 2rem;
   }
 }
 
