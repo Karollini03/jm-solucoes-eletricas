@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="JM - Soluções elétricas profissionais para residências e empresas. Instalação, manutenção e projetos elétricos.">
+  <title> JM SOLUÇÕES ELÉTRICAS </title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <!-- ===== HEADER ===== -->
+  <header class="header">
+    <div class="container">
+      <a href="#inicio" class="header__logo">
+        <div class="header__logo-icon electric-gradient yellow-glow">
+          <!-- Ícone Zap (raio) -->
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"/>
+          </svg>
+        </div>
+        <div>
+          <span class="header__logo-text"> JM <span> SOLUÇÕES ELÉTRICAS </span></span>
+        </div>
+      </a>
+
+      <!-- Desktop Nav -->
+      <nav class="header__nav">
+        <ul class="header__nav-list">
+          <li><a href="#inicio" class="header__nav-link">Início</a></li>
+          <li><a href="#servicos" class="header__nav-link">Serviços</a></li>
+          <li><a href="#galeria" class="header__nav-link">Galeria</a></li>
+          <li><a href="#contato" class="header__nav-link">Contato</a></li>
+        </ul>
+        <a href="#contato" class="btn-cta" style="padding: 0.5rem 1.5rem; font-size: 0.875rem;">Orçamento</a>
+      </nav>
+
+      <!-- Mobile Menu Button -->
+      <button class="header__menu-btn" id="menuBtn" aria-label="Abrir menu">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="menuIcon">
+          <line x1="4" x2="20" y1="12" y2="12"/>
+          <line x1="4" x2="20" y1="6" y2="6"/>
+          <line x1="4" x2="20" y1="18" y2="18"/>
+        </svg>
+
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="closeIcon" style="display: none;">
+          <path d="M18 6 6 18"/>
+          <path d="m6 6 12 12"/>
+        </svg>
+      </button>
+    </div>
+
+    <!-- Mobile Nav -->
+    <nav class="header__mobile-nav" id="mobileNav">
+      <div class="container">
+        <a href="#inicio">Início</a>
+        <a href="#servicos">Serviços</a>
+        <a href="#galeria">Galeria</a>
+        <a href="#contato">Contato</a>
+        <a href="#contato" class="btn-cta" style="margin-top: 0.5rem;">Orçamento</a>
+      </div>
+    </nav>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="inicio">
+    <div class="hero__background">
+      <!-- <img src="assets/hero-electrical.jpg" alt="Serviço elétrico profissional"> -->
+      <div class="hero__overlay"></div>
+    </div>
+
+    <div class="container hero__content">
+      <div class="hero__badge">
+        <span class="hero__badge-dot"></span>
+        <span class="hero__badge-text">Atendimento em Porto Alegre e toda região metropolitana</span>
+      </div>
+
+      <h1 class="hero__title">
+        Soluções Elétricas<br>
+        <span class="text-gradient">Profissionais</span><br>
+        para sua Empresa
+      </h1>
+
+      <p class="hero__description">
+        Instalações residenciais, comerciais e industriais com qualidade, segurança e os melhores preços do mercado.
+      </p>
+
+      <div class="hero__buttons">
+        <a href="https://wa.me/00000000000" target="_blank" rel="noopener noreferrer" class="btn-cta animate-pulse-glow">
+          Peça um orçamento agora
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M5 12h14"/>
+            <path d="m12 5 7 7-7 7"/>
+          </svg>
+        </a>
+        <a href="#servicos" class="hero__btn-secondary">Nossos Serviços</a>
+      </div>
+
+      <div class="hero__features">
+        <div class="hero__feature">
+          <div class="hero__feature-icon">
+            <!-- Shield icon -->
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/>
+            </svg>
+          </div>
+          <span class="hero__feature-text">Garantia Total</span>
+        </div>
+
+        <div class="hero__feature">
+          <div class="hero__feature-icon">
+            <!-- Clock icon -->
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="10"/>
+              <polyline points="12 6 12 12 16 14"/>
+            </svg>
+          </div>
+          <span class="hero__feature-text">24/7 Emergência</span>
+        </div>
+
+        <div class="hero__feature">
+          <div class="hero__feature-icon">
+            <!-- Award icon -->
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="m15.477 12.89 1.515 8.526a.5.5 0 0 1-.81.47l-3.58-2.687a1 1 0 0 0-1.197 0l-3.586 2.686a.5.5 0 0 1-.81-.469l1.514-8.526"/>
+              <circle cx="12" cy="8" r="6"/>
+            </svg>
+          </div>
+          <span class="hero__feature-text">+10 Anos Experiência</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero__gradient-bottom"></div>
+  </section>
+
+  <!-- ===== SERVICES ===== -->
+  <section class="services" id="servicos">
+    <div class="container">
+      <div class="services__header">
+        <span class="services__label">O que fazemos</span>
+        <h2 class="section-title">Nossos Serviços</h2>
+        <p class="section-subtitle">
+          Oferecemos soluções completas em instalações elétricas com qualidade e segurança garantidas.
+        </p>
+      </div>
+
+      <div class="services__grid">
+        <!-- Card 1 -->
+        <div class="service-card">
+          <div class="service-card__icon electric-gradient">
+            <!-- Home icon -->
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8"/>
+              <path d="M3 10a2 2 0 0 1 .709-1.528l7-5.999a2 2 0 0 1 2.582 0l7 5.999A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>
+            </svg>
+          </div>
+          <h3 class="service-card__title">Instalação Residencial, Industrial e Comercial</h3>
+          <p class="service-card__description">
+            Projetos completos para sua casa, emrpesa ou comércio, com total segurança e economia de energia.
+          </p>
+          <div class="service-card__line"></div>
+        </div>
+
+
+        <!-- Card 2 -->
+        <div class="service-card">
+          <div class="service-card__icon electric-gradient">
+            <!-- Gauge icon -->
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="m12 14 4-4"/>
+              <path d="M3.34 19a10 10 0 1 1 17.32 0"/>
+            </svg>
+          </div>
+          <h3 class="service-card__title">Quadros de Força</h3>
+          <p class="service-card__description">
+            Montagem e adequação de quadros elétricos seguindo normas técnicas.
+          </p>
+          <div class="service-card__line"></div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="service-card">
+          <div class="service-card__icon electric-gradient">
+            <!-- Wrench icon -->
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/>
+            </svg>
+          </div>
+          <h3 class="service-card__title">Reparos Elétricos</h3>
+          <p class="service-card__description">
+            Solução rápida para problemas elétricos com diagnóstico preciso.
+          </p>
+          <div class="service-card__line"></div>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="service-card">
+          <div class="service-card__icon electric-gradient">
+            <!-- Lightbulb icon -->
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1 .2 2.2 1.5 3.5.7.7 1.3 1.5 1.5 2.5"/>
+              <path d="M9 18h6"/><path d="M10 22h4"/>
+            </svg>
+          </div>
+          <h3 class="service-card__title">Energia Solar</h3>
+          <p class="service-card__description">
+            Instalação e manutenção completa do sistema.
+          </p>
+          <div class="service-card__line"></div>
+        </div>
+
+        <!-- Card 5 -->
+        <div class="service-card">
+          <div class="service-card__icon electric-gradient">
+            <!-- Cpu icon -->
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect width="16" height="16" x="4" y="4" rx="2"/>
+              <rect width="6" height="6" x="9" y="9" rx="1"/>
+              <path d="M15 2v2"/><path d="M15 20v2"/><path d="M2 15h2"/><path d="M2 9h2"/>
+              <path d="M20 15h2"/><path d="M20 9h2"/><path d="M9 2v2"/><path d="M9 20v2"/>
+            </svg>
+          </div>
+          <h3 class="service-card__title">Automação</h3>
+          <p class="service-card__description">
+            Sistemas inteligentes para controle de iluminação e climatização.
+          </p>
+          <div class="service-card__line"></div>
+        </div>
+
+        <!-- Card 6 -->
+        <div class="service-card">
+          <div class="service-card__icon electric-gradient">
+            <!-- Lightbulb icon -->
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1 .2 2.2 1.5 3.5.7.7 1.3 1.5 1.5 2.5"/>
+              <path d="M9 18h6"/><path d="M10 22h4"/>
+            </svg>
+          </div>
+          <h3 class="service-card__title">Iluminação LED</h3>
+          <p class="service-card__description">
+            Instalação de sistemas de iluminação LED.
+          </p>
+          <div class="service-card__line"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== GALLERY ===== -->
+  <section class="gallery" id="galeria">
+    <div class="container">
+      <div class="gallery__header">
+        <span class="gallery__label">Portfólio</span>
+        <h2 class="section-title">Nossa Galeria</h2>
+        <p class="section-subtitle">
+          Confira alguns dos nossos trabalhos realizados com excelência e profissionalismo.
+        </p>
+      </div>
+
+      <div class="gallery__grid">
+        <div class="gallery-item">
+          <img src="assets/gallery-1.jpg" alt="Instalação de quadro elétrico industrial">
+          <div class="gallery-item__overlay">
+            <div>
+              <span class="gallery-item__label">Quadro Industrial</span>
+              <p class="gallery-item__text">Instalação de quadro elétrico industrial</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery-item">
+          <img src="assets/gallery-2.jpg" alt="Projeto residencial finalizado">
+          <div class="gallery-item__overlay">
+            <div>
+              <span class="gallery-item__label">Residencial</span>
+              <p class="gallery-item__text">Projeto residencial finalizado</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery-item">
+          <img src="assets/gallery-3.jpg" alt="Manutenção industrial">
+          <div class="gallery-item__overlay">
+            <div>
+              <span class="gallery-item__label">Manutenção</span>
+              <p class="gallery-item__text">Manutenção industrial</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery-item">
+          <img src="assets/gallery-4.jpg" alt="Instalação de iluminação LED">
+          <div class="gallery-item__overlay">
+            <div>
+              <span class="gallery-item__label">Iluminação LED</span>
+              <p class="gallery-item__text">Instalação de iluminação LED</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery-item">
+          <img src="assets/gallery-5.jpg" alt="Quadro de força comercial">
+          <div class="gallery-item__overlay">
+            <div>
+              <span class="gallery-item__label">Energia Solar</span>
+              <p class="gallery-item__text">Instalação e manutenção</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery-item">
+          <img src="assets/gallery-6.jpg" alt="Automação residencial">
+          <div class="gallery-item__overlay">
+            <div>
+              <span class="gallery-item__label">Automação</span>
+              <p class="gallery-item__text">Automação residencial</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="gallery__cta">
+        <a href="https://wa.me/00000000000" target="_blank" rel="noopener noreferrer" class="btn-cta">
+          Ver mais projetos
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section class="contact electric-gradient" id="contato">
+    <div class="contact__decor-1"></div>
+    <div class="contact__decor-2"></div>
+    <div class="container contact__container">
+      <div class="contact__grid">
+        <div>
+          <span class="contact__label">Entre em contato</span>
+          <h2 class="contact__title">
+            Solicite um Orçamento<br>
+            <span class="text-gradient">Sem Compromisso</span>
+          </h2>
+          <p class="contact__description">
+            Estamos prontos para atender você! Entre em contato pelo WhatsApp para um orçamento rápido e personalizado.
+          </p>
+          <div class="contact__info">
+            <a href="tel:+5551999999999" class="contact__info-item">
+              <div class="contact__info-icon">
+                <!-- Phone icon -->
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                </svg>
+              </div>
+              <div>
+                <span class="contact__info-label">Telefone</span>
+                <p class="contact__info-value">(51) 99999-9999</p>
+              </div>
+            </a>
+
+            <a href="#" class="contact__info-item">
+              <div class="contact__info-icon">
+                <!-- MapPin icon -->
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"/>
+                  <circle cx="12" cy="10" r="3"/>
+                </svg>
+              </div>
+              <div>
+                <span class="contact__info-label">Endereço</span>
+                <p class="contact__info-value">Porto Alegre, RS</p>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <div class="contact__card">
+          <h3 class="contact__card-title">Fale Conosco</h3>
+          <a href="https://wa.me/00000000000" target="_blank" rel="noopener noreferrer" class="contact__whatsapp-btn">
+            <!-- MessageCircle icon -->
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"/>
+            </svg>
+            Chamar no WhatsApp
+          </a>
+
+          <p class="contact__social-text">Ou nos siga nas redes sociais</p>
+          <div class="contact__social-links">
+            <a href="https://instagram.com/placeholder" target="_blank" rel="noopener noreferrer" class="contact__social-link contact__social-link--instagram" aria-label="Instagram">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect width="20" height="20" x="2" y="2" rx="5" ry="5"/>
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+                <line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/>
+              </svg>
+            </a>
+
+            <a href="https://facebook.com/placeholder" target="_blank" rel="noopener noreferrer" class="contact__social-link contact__social-link--facebook" aria-label="Facebook">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/>
+              </svg>
+            </a>
+          </div>
+          <div class="contact__trust">
+            <p class="contact__trust-text">⚡ Resposta em até 30 minutos durante horário comercial</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container footer__container">
+      <a href="#inicio" class="footer__logo">
+        <div class="footer__logo-icon electric-gradient">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"/>
+          </svg>
+        </div>
+        <span class="footer__logo-text"> JM <span> SOLUÇÕES ELÉTRICAS</span></span>
+      </a>
+
+      <p class="footer__copyright">© 2025 JM SOLUÇÕES ELÉTRICAS. Todos os direitos reservados.</p>
+      <div class="footer__links">
+        <a href="#servicos" class="footer__link">Serviços</a>
+        <a href="#contato" class="footer__link">Contato</a>
+      </div>
+    </div>
+  </footer>
+  <script src="js/config.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
