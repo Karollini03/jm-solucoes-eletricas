@@ -11,28 +11,6 @@ document.querySelectorAll('a[href*="facebook.com"]').forEach(el => {
 document.querySelector('a[href^="tel:"]').href = CONFIG.telefone;
 document.querySelector('.contact__info-value').textContent = CONFIG.telefoneExibido;
 
-const menuBtn = document.getElementById('menuBtn');
-const mobileNav = document.getElementById('mobileNav');
-const menuIcon = document.getElementById('menuIcon');
-const closeIcon = document.getElementById('closeIcon');
-
-if (menuBtn && mobileNav) { /*se o botao menu e a nav mobile existirem */
-  menuBtn.addEventListener('click', () => {
-    const isOpen = mobileNav.classList.contains('active');
-    mobileNav.classList.toggle('active');
-    menuIcon.style.display = isOpen ? 'block' : 'none';
-    closeIcon.style.display = isOpen ? 'none' : 'block';
-  });
-
-  mobileNav.querySelectorAll('a').forEach(link => {
-    link.addEventListener('click', () => {
-      mobileNav.classList.remove('active');
-      menuIcon.style.display = 'block';
-      closeIcon.style.display = 'none';
-    });
-  });
-}
-
 const sections = ['inicio', 'servicos', 'galeria', 'contato'];
 function setActiveSection(sectionId) {  /*definir a secao ativa */
   const navLinks = document.querySelectorAll('.header__nav-link');
