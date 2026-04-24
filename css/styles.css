@@ -440,8 +440,11 @@ ul {
   }
 
   .contact__whatsapp-btn {
-    padding: 0.55rem 0.7rem;
+    width: auto;
+    align-self: center;
+    padding: 0.65rem 1rem;
     font-size: 0.82rem;
+    gap: 0.5rem;
     margin-bottom: 1rem;
   }
 
