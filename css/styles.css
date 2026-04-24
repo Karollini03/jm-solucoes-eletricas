@@ -440,9 +440,14 @@ ul {
   }
 
   .contact__whatsapp-btn {
-    padding: 0.68rem 0.8rem;
-    font-size: 0.88rem;
+    padding: 0.55rem 0.7rem;
+    font-size: 0.82rem;
     margin-bottom: 1rem;
+  }
+
+  .contact__whatsapp-btn svg {
+    width: 20px;
+    height: 20px;
   }
 
   .contact__social-link {
